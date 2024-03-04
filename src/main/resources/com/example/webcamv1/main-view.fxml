@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.canvas.Canvas?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.BorderPane?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900.0" prefWidth="1200.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.webcamv1.mainWindowController">
+   <top>
+      <Button fx:id="button" alignment="TOP_LEFT" blendMode="SRC_ATOP" cancelButton="true" contentDisplay="RIGHT" mnemonicParsing="false" scaleZ="2.0" text="ON/OFF" BorderPane.alignment="TOP_RIGHT" />
+   </top>
+   <left>
+      <ImageView fx:id="imageView" fitHeight="613.0" fitWidth="635.0" pickOnBounds="true" preserveRatio="true" BorderPane.alignment="CENTER" />
+   </left>
+   <right>
+      <Canvas fx:id="canvas" height="800.0" width="615.0" BorderPane.alignment="CENTER" />
+   </right>
+</BorderPane>
